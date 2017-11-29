@@ -1,7 +1,26 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
 body {
 
 }
 
 .site-footer {
   background: gray;
+}
+
+.site-header {
+  background: gray;
+}
+
+nav li {
+display: inline-block;
+padding-left: 10%;
+padding: 2%;
+}
+
+nav li a {
+  text-decoration: none;
+  text-shadow: 1;
 }
