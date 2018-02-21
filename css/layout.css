@@ -10,17 +10,88 @@ body {
   background: gray;
 }
 
+
+.logo {
+font-size: 3em;
+text-decoration: none;
+padding-left: 3%;
+}
+
+
 .site-header {
   background: gray;
+  color: black;
 }
+
+
+.site-header nav {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  white-space: nowrap;
+  align-self: auto;
+}
+
 
 nav li {
-display: inline-block;
-padding-left: 10%;
-padding: 2%;
+  display: inline-block;
+  padding-left: 10%;
+  padding: 2%;
 }
 
-nav li a {
+
+.site-header a {
   text-decoration: none;
   text-shadow: 1;
+  color: black;
+}
+
+
+.col h1 {
+  color: black;
+}
+
+
+.col {
+  color: black;
+  box-sizing: border-box;
+  width: 100%;
+  height: 50%;
+  display: inline-grid;
+  background-color: silver;
+  font-size: 0;
+}
+
+
+.col2 {
+  color: black;
+  box-sizing: border-box;
+  width: 50%;
+  height: 100%;
+  display: inline-flex;
+  background-color: white;
+  font-size: 25px;
+}
+
+
+.col4 {
+  color: black;
+  box-sizing: border-box;
+  width: 50%;
+  height: 50%;
+  display: inline-grid;
+  background-color: silver;
+}
+
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.big {
+  font-size: 3em;
+  padding-left: 10%;
 }
