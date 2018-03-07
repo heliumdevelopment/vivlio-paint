@@ -1,0 +1,74 @@
+body {
+  font-family: "Open Sans";
+  margin: 0;
+  padding: 0;
+}
+
+.site-header {
+  background: #eaeaea;
+}
+
+.site-header .header-container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.site-header a {
+  font-family: "Open Sans";
+  text-decoration: none;
+}
+
+.site-header .logo {
+  font-size: 3em;
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.site-header nav {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 40px;
+}
+
+.site-header nav a {
+  padding: 15px 25px;
+  color: black;
+  border-radius: 4px;
+}
+
+.site-header nav a:hover {
+  background: rgba(0,0,0,0.05);
+}
+
+.site-header .search-bar {
+  float: right;
+  border: 1px solid #8E8D8D;
+  background: #D8D8D8;
+  margin-top: 20px;
+}
+
+.site-header .search-bar input[type="search"] {
+  border: none;
+  -webkit-appearance: none;
+  outline: none;
+  background: transparent;
+  vertical-align: middle;
+  padding: 6px;
+}
+
+.site-header .search-bar button {
+  vertical-align: middle;
+  -webkit-appearance: none;
+  background: #8E8D8D;
+  border: none;
+}
+
+.site-header .search-bar img {
+  height: 22px;
+}
+
+.featured {
+  max-width: 900px;
+}

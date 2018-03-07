@@ -1,13 +1,38 @@
 <html>
   <head>
     <title>Gates</title>
-    <link rel="stylesheet" href="/css/layout.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   </head>
   <body>
-    <div data-gates-template></div>
-    <script type="text/javascript" src="/js/jquery.min.js"></script>
-    <script type="text/javascript" src="/js/gates.js"></script>
-    <script type="text/javascript" src="/js/app.js"></script>
+    <header class="site-header">
+      <div class="header-container">
+        <a href="/" class="logo">Vivlio</a>
+        <nav>
+          <a href="/explore">Explore</a>
+          <a href="/my-books">My Books</a>
+        </nav>
+        <div class="search-bar">
+          <input type="search" name="q" />
+          <button>
+            <img src="/assets/images/search.png" alt="Search">
+          </button>
+        </div>
+      </div>
+    </header>
+    <div class="featured">
+      <section class="main-feature">
+        <h1>One body.</h1>
+        <h1>One library.</h1>
+      </section>
+      <div class="sub-features">
+        <a href="/new-arrivals">
+          <h2>New Arrivals</h2>
+        </a>
+        <a href="/explore">
+          <h2>Explore</h2>
+        </a>
+      </div>
+    </div>
   </body>
 </html>
