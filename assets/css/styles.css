@@ -11,6 +11,7 @@ body {
 .site-header .header-container {
   max-width: 900px;
   margin: auto;
+  padding: 10px 0;
 }
 
 .site-header a {
@@ -46,7 +47,7 @@ body {
   float: right;
   border: 1px solid #8E8D8D;
   background: #D8D8D8;
-  margin-top: 20px;
+  margin-top: 11px;
 }
 
 .site-header .search-bar input[type="search"] {
@@ -55,7 +56,8 @@ body {
   outline: none;
   background: transparent;
   vertical-align: middle;
-  padding: 6px;
+  padding: 8px;
+  font-size: 18px;
 }
 
 .site-header .search-bar button {
@@ -66,9 +68,64 @@ body {
 }
 
 .site-header .search-bar img {
-  height: 22px;
+  height: 25px;
+  margin: 7px;
 }
 
 .featured {
   max-width: 900px;
+  height: 500px;
+  margin: 0 auto;
+  font-size: 0;
+}
+
+.featured .main-feature,
+.featured .sub-features {
+  display: inline-block;
+  height: 100%;
+  text-align: center;
+  vertical-align: top;
+  font-size: 1rem;
+}
+
+.featured .main-feature:before,
+.featured .sub-features a:before {
+  content: '';
+  height: 100%;
+  width: 0;
+  font-size: 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.featured .content {
+  width: 100%;
+  display: inline-block;
+  max-width: calc(100% - 50px);
+}
+
+.featured .main-feature {
+  box-sizing: border-box;
+  width: 70%;
+  background: #f4f4f4;
+}
+
+.featured h1 {
+  margin: 0;
+}
+
+.featured .sub-features {
+  box-sizing: border-box;
+  width: 30%;
+}
+
+.featured .sub-features a {
+  display: block;
+  height: 50%;
+  text-decoration: none;
+  background: #eee;
+}
+
+.featured .sub-features a:first-of-type {
+  background: #ccc;
 }
